@@ -1,0 +1,308 @@
+/** VARIABLES Y FUNCIONES **/
+$blue: #0D6EFD;
+$red: #DC3545;
+$green: #2C9162;
+$darkBlue: #002e72;
+$lightBlue: #9ccfff;
+
+$redes:(instagram: $red,
+    facebook: $blue,
+    whatsapp: $green);
+
+/** HEADER **/
+
+
+.cabecera {
+    z-index: 999;
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        position: relative;
+        margin-right: 20px;
+
+        &::before {
+            content: "";
+            height: 3px;
+            width: 0%;
+            background-color: $lightBlue;
+            position: absolute;
+            left: 8px;
+            bottom: 5px;
+            transition: 0.3s ease-out;
+        }
+
+        &:hover::before {
+            width: 80%;
+        }
+    }
+}
+
+/** HEADER **/
+
+/** MAIN **/
+
+main {
+    padding-top: 3.7em;
+}
+
+.texto-navegacion {
+    text-decoration: none;
+    color: #7F7F7F;
+}
+
+.carousel-item {
+    max-height: 39rem;
+}
+
+main {
+    overflow: hidden;
+}
+
+.carousel-text {
+    position: relative;
+    margin: 15%;
+    font-size: 2em;
+
+    h5 {
+        font-size: 2.5em;
+    }
+}
+
+.main-payments-metods__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #fff;
+    color: rgb(51, 51, 51);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8rem;
+    border: 2px #efefef solid;
+
+    ul {
+        margin: 1em;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        font-weight: 600;
+
+        li {
+            i {
+                display: inline;
+                color: $blue;
+            }
+        }
+    }
+}
+
+@media (min-width: 767px) {
+    .main-payments-metods__container {
+        width: 80%;
+        margin: auto;
+        border-radius: 0.3em;
+        font-size: 1.2rem;
+    }
+}
+
+.producto {
+    a {
+        text-decoration: none;
+    }
+
+    .card-text {
+        color: #fff;
+    }
+}
+
+.producto:hover {
+    transform: scale(1.05);
+    transition: 1s;
+
+    .card-text {
+        color: #000000;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .producto .card-text {
+        color: #000000;
+    }
+}
+
+/** MAIN **/
+
+/** FOOTER **/
+
+.iconos-flotantes {
+    position: fixed;
+    overflow: hidden;
+    bottom: 10px;
+    right: 10px;
+    width: 140px;
+    display: inline;
+
+    li {
+        display: inline;
+        font-size: 35px;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.iconos-flotantes li:nth-child(1) a:hover::before {
+    color: darkgreen;
+}
+
+.iconos-flotantes li:nth-child(2) a:hover::before {
+    color: darkblue;
+}
+
+.iconos-flotantes li:nth-child(3) a:hover::before {
+    color: darkred;
+}
+
+
+@each $red,
+$color in $redes {
+    .btn--#{$red} {
+        color: $color;
+    }
+}
+
+
+/** FOOTER **/
+
+/** SECCION CONTACTO **/
+
+.content {
+    color: #fff;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.contact__wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+
+    >* {
+        padding: 1em;
+    }
+}
+
+.contact-form {
+    background: #222222;
+
+    form {
+        p {
+            margin: 0;
+            padding: 1em;
+        }
+
+        button,
+        input {
+            width: 100%;
+            padding: .7em;
+            border: none;
+            background: none;
+            outline: none;
+            color: #fff;
+            border-bottom: 1px solid $blue;
+        }
+
+        textarea {
+            width: 100%;
+            padding: .7em;
+            border: none;
+            background: none;
+            outline: none;
+            color: #fff;
+            border-bottom: 1px solid $blue;
+            min-width: 100%;
+            max-width: max-content;
+            min-height: 100px;
+            max-height: 200px;
+        }
+
+        button {
+            background: $blue;
+            border: 0;
+            text-transform: uppercase;
+            padding: 1em;
+            color: #000000;
+
+            &:hover,
+            &:focus {
+                background: $darkBlue;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.contact-info {
+    background: #000000;
+
+    h3,
+    ul {
+        text-align: center;
+        margin: 0 0 1rem 0;
+    }
+}
+
+.contac-infor p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+        padding: .5em;
+    }
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 1fr;
+}
+
+/* LARGE SCREEN */
+
+@media (min-width: 767px) {
+    .contact__wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+        >* {
+            padding: 2em;
+        }
+    }
+
+    .contact-info {
+
+        h4,
+        ul,
+        p {
+            text-align: left;
+        }
+    }
+}
+
+
+/** SECCION CONTACTO **/
+
+.fa-cart-plus {
+    text-decoration: none;
+}

@@ -1,0 +1,300 @@
+/** VARIABLES Y FUNCIONES **/
+/** HEADER **/
+.cabecera {
+  z-index: 999;
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    position: relative;
+    margin-right: 20px;
+  }
+  .nav-link::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #9ccfff;
+    position: absolute;
+    left: 8px;
+    bottom: 5px;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+  }
+  .nav-link:hover::before {
+    width: 80%;
+  }
+}
+
+/** HEADER **/
+/** MAIN **/
+main {
+  padding-top: 3.7em;
+}
+
+.texto-navegacion {
+  text-decoration: none;
+  color: #7F7F7F;
+}
+
+.carousel-item {
+  max-height: 39rem;
+}
+
+main {
+  overflow: hidden;
+}
+
+.carousel-text {
+  position: relative;
+  margin: 15%;
+  font-size: 2em;
+}
+
+.carousel-text h5 {
+  font-size: 2.5em;
+}
+
+@media (max-width: 767px){
+  .carousel-item{
+    height: 100%;
+  }
+}
+
+
+.main-payments-metods__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #fff;
+  color: #333333;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  border: 2px #efefef solid;
+}
+
+.main-payments-metods__container ul {
+  margin: 1em;
+  padding: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  font-weight: 600;
+}
+
+.main-payments-metods__container ul li i {
+  display: inline;
+  color: #0D6EFD;
+}
+
+@media (min-width: 767px) {
+  .main-payments-metods__container {
+    width: 80%;
+    margin: auto;
+    border-radius: 0.3em;
+    font-size: 1.2rem;
+  }
+}
+
+.producto a {
+  text-decoration: none;
+}
+
+.producto .card-text {
+  color: #fff;
+}
+
+.producto:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.producto:hover .card-text {
+  color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .producto .card-text {
+    color: #000000;
+  }
+}
+
+/** MAIN **/
+/** FOOTER **/
+.iconos-flotantes {
+  position: fixed;
+  overflow: hidden;
+  bottom: 10px;
+  right: 10px;
+  width: 140px;
+  display: inline;
+}
+
+.iconos-flotantes li {
+  display: inline;
+  font-size: 35px;
+}
+
+.iconos-flotantes li a {
+  text-decoration: none;
+}
+
+.iconos-flotantes li:nth-child(1) a:hover::before {
+  color: darkgreen;
+}
+
+.iconos-flotantes li:nth-child(2) a:hover::before {
+  color: darkblue;
+}
+
+.iconos-flotantes li:nth-child(3) a:hover::before {
+  color: darkred;
+}
+
+.btn--instagram {
+  color: #DC3545;
+}
+
+.btn--facebook {
+  color: #0D6EFD;
+}
+
+.btn--whatsapp {
+  color: #2C9162;
+}
+
+/** FOOTER **/
+/** SECCION CONTACTO **/
+.content {
+  color: #fff;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.logo {
+  text-align: center;
+  font-size: 3em;
+}
+
+.contact__wrapper {
+  -webkit-box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+          box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.contact__wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: #222222;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+  border-bottom: 1px solid #0D6EFD;
+}
+
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+  border-bottom: 1px solid #0D6EFD;
+  min-width: 100%;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  min-height: 100px;
+  max-height: 200px;
+}
+
+.contact-form form button {
+  background: #0D6EFD;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  color: #000000;
+}
+
+.contact-form form button:hover, .contact-form form button:focus {
+  background: #002e72;
+  color: #fff;
+}
+
+.contact-info {
+  background: #000000;
+}
+
+.contact-info h3,
+.contact-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contac-infor p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  padding: .5em;
+}
+
+.button {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 0.2fr 1fr;
+      grid-template-columns: 1fr 0.2fr 1fr;
+}
+
+/* LARGE SCREEN */
+@media (min-width: 767px) {
+  .contact__wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
+  }
+  .contact__wrapper > * {
+    padding: 2em;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left;
+  }
+}
+
+/** SECCION CONTACTO **/
+.fa-cart-plus {
+  text-decoration: none;
+}
+/*# sourceMappingURL=estilos.css.map */
