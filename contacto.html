@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ponte en contacto con nosotros. 142Clothes.">
+    <meta name="keywords" content="contacto 142Clothes, ayuda 142Clothes, contacto, ayuda">
+    <!--FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/d8fb8ebadf.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP-->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="assets/scss/estilos.css">
+    <title>142 Clothes - Contacto</title>
+</head>
+
+<body>
+    <header>    
+        <div class="container-fluid bg-light position-fixed cabecera">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-2" href="index.html">142<span class="text-primary">Clothes</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-black-50 text-center" aria-current="page"
+                                    href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-black-50 text-center" href="#"
+                                    id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tienda
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-center" href="hombre.html">Hombre</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item text-center" href="mujer.html">Mujer</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item text-center" href="tienda.html">Todo</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-black-50 text-center" aria-current="page"
+                                    href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar productos..."
+                                aria-label="Search">
+                            <button class="btn btn-outline-primary" type="button">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <h1 class="logo text-dark">Conta<span class="text-primary">ctános</span></h1>
+            <div class="contact__wrapper">
+                <div class="contact-form">
+                    <h2>Sus datos</h2>
+                    <form action="">
+                        <p>
+                            <label for="fullname">Nombre completo*</label>
+                            <input type="text" name="fullname" id="fullname" required>
+                        </p>
+                        <p>
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" id="email" required>
+                        </p>
+                        <p>
+                            <label>WhatsApp</label>
+                            <input type="tel" name="phone">
+                        </p>
+                        <p>
+                            <label for="affair">Asunto*</label>
+                            <input type="text" name="affair" required>
+                        </p>
+                        <p>
+                            <label>Mensaje</label>
+                            <textarea name="message" rows="1"></textarea>
+                        </p>
+                        <p class="button">
+                            <button type="submit">
+                                Enviar
+                            </button>
+                            <span></span>
+                            <button type="reset">
+                                Reiniciar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Más info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Calle falsa 123</li>
+                        <li><i class="fas fa-phone"></i> 111 111 111 1111</li>
+                        <li><i class="fas fa-envelope-open-text"></i> ejemplo@website.com</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam pariatur autem explicabo porro
+                        quia!
+                        Quo ipsum esse pariatur inventore, provident quasi quod, at autem hic iusto libero odio
+                        similique
+                        dicta.</p>
+                    <p>142Clothes.com</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+                <li class="nav-item"><a href="tienda.html" class="nav-link px-2 text-muted">Tienda</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Acerca de nosotros</a></li>
+            </ul>
+            <p class="text-center text-muted">©2021 142<span class="text-dark">Clothes</span>, Inc</p>
+        </div>
+        <div class="iconos-flotantes">
+            <ul>
+                <li><a href ="https://web.whatsapp.com" class="fab fa-whatsapp btn--whatsapp" target="_blank"></a></li>
+                <li><a href ="https://www.facebook.com" class="fab fa-facebook btn--facebook" target="_blank"></a></li>
+                <li><a href ="https://www.instagram.com/?hl=es" class="fab fa-instagram btn--instagram" target="_blank"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
