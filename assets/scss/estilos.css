@@ -4,6 +4,13 @@
   z-index: 999;
 }
 
+.backgroundpag, .imgbackgroundpag {
+  height: 150%;
+  width: 100%;
+  z-index: -500;
+  position: fixed;
+}
+
 @media (min-width: 992px) {
   .nav-link {
     position: relative;
@@ -29,11 +36,15 @@
 /** MAIN **/
 main {
   padding-top: 3.7em;
+  
 }
 
 .texto-navegacion {
   text-decoration: none;
   color: #7F7F7F;
+}
+.carousel{
+  margin-top: 1rem;
 }
 
 .carousel-item {
@@ -46,8 +57,8 @@ main {
 
 .carousel-text {
   position: relative;
-  margin: 15%;
-  font-size: 2em;
+  
+  font-size: 10px;
 }
 
 .carousel-text h5 {
@@ -60,6 +71,9 @@ main {
   }
 }
 
+.table{
+  font-size: 18px;
+}
 
 .main-payments-metods__container {
   display: -webkit-box;
