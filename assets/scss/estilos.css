@@ -16,6 +16,14 @@
     position: relative;
     margin-right: 20px;
   }
+
+  
+.backgroundpag, .imgbackgroundpag {
+  height: 150%;
+  width: 100%;
+  z-index: -500;
+  position: fixed;
+}
   .nav-link::before {
     content: "";
     height: 3px;
@@ -69,6 +77,14 @@ main {
   .carousel-item{
     height: 100%;
   }
+
+  .backgroundpag, .imgbackgroundpag {
+    height: 150%;
+    width: 100%;
+    z-index: -500;
+    position: fixed;
+  }
+
 }
 
 .table{
@@ -114,6 +130,14 @@ main {
     border-radius: 0.3em;
     font-size: 1.2rem;
   }
+
+  .backgroundpag, .imgbackgroundpag {
+    height: 150%;
+    width: 100%;
+    z-index: -500;
+    position: fixed;
+  }
+
 }
 
 .producto a {
