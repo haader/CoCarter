@@ -2,6 +2,24 @@
 /** HEADER **/
 .cabecera {
   z-index: 999;
+  display:block;
+  margin-bottom: 3rem;
+  
+}
+
+.video, .slider1,.slider2{
+  width: 20%;  
+  margin-left: 40%;
+}
+
+.contenidos{
+  
+  display: block;
+}
+
+.talle{
+  margin-left: 10rem;
+  margin-top: 2.5rem;
 }
 
 .backgroundpag, .imgbackgroundpag {
