@@ -146,8 +146,8 @@ main {
   }
 
   .backgroundpag, .imgbackgroundpag {
-    height: 33.3%;
-    width: 25%;
+    height: 150%;
+    width: 100%;
     z-index: -500;
     position: fixed;
   }
