@@ -65,6 +65,12 @@
 }
 
 
+/*divgridtalle*/
+.gridtalle{
+display: grid;
+grid-template-columns: 40% 20% 40%;
+}
+
 /*
 .talle{
   margin-left: 10rem;
@@ -183,7 +189,7 @@ main {
   left: 30%;
   transform: translate(-50%, -50%);
   color: #030303;
-  font-size: 0.6rem;
+  font-size: 1rem;
   
 }
 
