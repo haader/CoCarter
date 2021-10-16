@@ -152,7 +152,47 @@ main {
     position: fixed;
   }
 
+/*seleccion de talles mobile*/
+.talles{
+  margin-left:1.6rem;
+  /*margin-right: 10rem;*/
+  display: grid;
+  grid-template-columns: repeat(3,5rem);
+  gap: 10%;
+  margin-top: 2rem;
 }
+
+.talle1:hover,.talle2:hover,.talle3:hover,.talle4:hover,.talle5:hover,.talle6:hover{
+  -webkit-transform: scale(1.10);
+          transform: scale(1.10);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.talles img{
+  width: 5rem;
+  height: 5rem;
+  
+  
+}
+
+
+.texttalle{
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #030303;
+  font-size: 0.6rem;
+  
+}
+
+  
+}
+
+
+
+
 
 .table{
   font-size: 18px;
