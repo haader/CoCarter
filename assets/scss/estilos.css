@@ -17,11 +17,60 @@
   display: block;
 }
 
+
+.talles{
+  margin-left:22rem;
+  margin-right: 10rem;
+  display: grid;
+  grid-template-columns: repeat(3,10rem);
+  gap: 10%;
+  margin-top: 2rem;
+}
+
+.talle1:hover,.talle2:hover,.talle3:hover,.talle4:hover,.talle5:hover,.talle6:hover{
+  -webkit-transform: scale(1.10);
+          transform: scale(1.10);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.talles img{
+  width: 10rem;
+  height: 10rem;
+  
+  
+}
+.talle1,.talle2,.talle3,.talle4,.talle5,.talle6 {
+  position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texttalle{
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: #030303;
+  
+}
+
+.backgroundtext{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  height: 40%;
+  top: 60%;
+  
+}
+
+
+/*
 .talle{
   margin-left: 10rem;
   margin-top: 2.5rem;
 }
-
+*/
 .backgroundpag, .imgbackgroundpag {
   height: 150%;
   width: 100%;
