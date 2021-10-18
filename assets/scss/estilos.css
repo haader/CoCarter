@@ -8,6 +8,11 @@
   
 }
 
+.navbar-toggler-icon{
+  width: 1em;
+  height: 1em;
+}
+
 .video, .slider1,.slider2{
   width: 300px;  
   height: 200px;
