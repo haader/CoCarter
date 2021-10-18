@@ -322,6 +322,11 @@ main {
   .producto .card-text {
     color: #000000;
   }
+  .navbar{
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  
+  }
 }
 
 /** MAIN **/
