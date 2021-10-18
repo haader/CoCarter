@@ -3,7 +3,8 @@
 .cabecera {
   z-index: 999;
   display:block;
-  margin-bottom: 3rem;
+  /*margin-bottom: 3rem;*/
+  
   
 }
 
@@ -17,6 +18,12 @@
 .contenidos{
   
   display: block;
+}
+
+.navbar{
+  padding-bottom: 0rem;
+  padding-top: 0rem;
+
 }
 
 /*..................................TALLES..............................................*/
@@ -249,6 +256,7 @@ main {
   font-family: 'Quicksand', sans-serif;
   font-size: 0.8rem;
   border: 2px #efefef solid;
+  
 }
 
 .main-payments-metods__container ul {
