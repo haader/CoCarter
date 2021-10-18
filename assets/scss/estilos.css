@@ -146,7 +146,7 @@ background-color: rgba(209, 203, 203, 0.5);
 /** HEADER **/
 /** MAIN **/
 main {
-  padding-top: 3.7em;
+  padding-top: 2.7em;
   
 }
 
@@ -180,6 +180,11 @@ main {
   .carousel-item{
     height: 25%;
     object-fit: cover;
+  }
+  .navbar{
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  
   }
 
   .backgroundpag, .imgbackgroundpag {
