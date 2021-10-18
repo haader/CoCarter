@@ -168,7 +168,7 @@ main {
 .carousel-text h5 {
   font-size: 2.5em;
 }
-
+/*.....................................LG................*/
 @media (max-width: 767px){
   .carousel-item{
     height: 25%;
@@ -184,12 +184,12 @@ main {
 
 /*.......................seleccion de talles mobile.......................*/
 .talles{
-  margin-left:0.5rem;
+  margin-left:0.4rem;
   /*margin-right: 10rem;*/
   display: grid;
   grid-template-columns: repeat(3,8rem);
-  gap: 5%;
-  margin-top: 2rem;
+  gap: 3%;
+  margin-top: 1rem;
   
 }
 
