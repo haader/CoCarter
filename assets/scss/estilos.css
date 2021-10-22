@@ -14,10 +14,11 @@
 }
 
 .video, .slider1,.slider2{
-  width: 300px;  
-  height: 200px;
-  margin-left: 14%;
-  object-fit: cover;
+  width: 80%;  
+  height: 20%;
+  margin-left: 10%;
+  object-fit:over;
+  border-radius: 3%;
 }
 
 .contenidos{
@@ -43,11 +44,31 @@
   margin-top: 2rem;
 }
 
+.tallesselect{
+  -webkit-transform: scale(1.10);
+  transform: scale(1.10);
+  
+}
+
 .talle1:hover,.talle2:hover,.talle3:hover,.talle4:hover,.talle5:hover,.talle6:hover{
   -webkit-transform: scale(1.10);
           transform: scale(1.10);
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.talles img{
+  width: 8rem;
+  height: 8rem;
+  border: solid;
+  border-color: #7cd3da;
+}
+
+.tallesselect img{
+  width: 8rem;
+  height: 8rem;
+  border: solid;
+  border-color: #319699;
 }
 
 .talles img{
@@ -109,6 +130,21 @@
 
 border-radius: 4%;
 background-color: rgba(209, 203, 203, 0.5);
+
+margin-left: 4rem;
+margin-right: 4rem;
+}
+
+.gridtalle td{
+
+
+  padding-left: 10%;
+
+  }
+
+.table{
+  font-size: 18px;
+  
 }
 
 /*
@@ -206,6 +242,13 @@ main {
     z-index: -500;
     position: fixed;
   }
+/*...................................mobile video...................*/
+  .video, .slider1,.slider2{
+    width: 300px;  
+    height: 200px;
+    margin-left: 14%;
+    object-fit: cover;
+  }
 
 /*.......................seleccion de talles mobile.......................*/
 .talles{
@@ -262,10 +305,19 @@ main {
 /*.......................seleccion de talles mobile.......................*/
 
 
+.gridtalle{
 
+  border-radius: 4%;
+  background-color: rgba(209, 203, 203, 0.5);
+  
+  margin-left: 0rem;
+  margin-right: 0rem;
+  
+  
+  }
 
 .table{
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .main-payments-metods__container {
