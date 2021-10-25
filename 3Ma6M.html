@@ -86,14 +86,20 @@
 
     <div class="catalogo">
         
-        <div class="divcompra">
+        <div class="divcompra" id="body">
             <p>   Body</p>
 
             <img src="imagenes/calzast3.jpg" alt="">
         </div>
 
+            <div class="catalogo1" id="catalogo1">
+
+            </div>
+
+
+
         <div class="divcompra">
-            <p>Body</p>
+            <p>Pantalon interlock</p>
         </div>
 
     </div>
@@ -120,6 +126,8 @@
 
     <script src="./jquery.js"></script>
 
+
+<!--seccion talles-->
     <script>
     
         $(document).ready(function(){
@@ -174,4 +182,17 @@
         });
         });
     
+    /*-------------------seccion botones------------*/
+
+        $(document).ready(function(){
+        
+        $('#body').click(function(){
+            
+            $('#catalogo1').load("catalogobody.html");
+
+        });
+        });
+
     </script>
+
+

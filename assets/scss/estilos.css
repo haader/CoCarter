@@ -186,12 +186,17 @@ background-color: rgba(241, 228, 228, 0.6);
   display: inline;
   height: 30%;
   width: 30%;
-  margin-left: 20%;
+  margin-left: 20%;   
   border: solid;
   border-color: black;
+
+  
  
 }
 
+.catalogo1{
+  background-color: rgba(241, 228, 228, 0.3   );
+}
 /*..................................div btn compras..............................................*/
 /*..................................div btn compras..............................................*/
 
