@@ -168,27 +168,30 @@ background-color: rgba(241, 228, 228, 0.6);
 }
 .divcompra {
   height: 10%;
-  width: 50%;
+  width: 80%;
   background-color: rgba(241, 228, 228, 0.2);
   margin-bottom: 1rem;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 10%;
+  margin-right: 10%;
   align-items: center;
   border-radius: 5px;
 }
 .divcompra p{
   display: inline;
-  font-size: 5rem;
-  margin-left: 5rem;
+  font-size: 2rem;
+  margin-left: 0%;
 }
 
 .divcompra img{
   display: inline;
-  height: 30%;
-  width: 30%;
-  margin-left: 20%;   
+  height: 15%;
+  width: 15%;
+  margin-left: 70%;   
   border: solid;
   border-color: black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
 
   
  
