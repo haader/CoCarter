@@ -10,6 +10,7 @@
 .mayorista p{
   margin-bottom: 0rem;
   text-align: center;
+  
   padding-top: 1%;
 }
 
@@ -17,6 +18,9 @@
   z-index: 999;
   display:block;
   /*margin-bottom: 3rem;*/
+  padding-left: 0rem;
+  padding-right: 0rem;
+
   
   
 }
@@ -288,18 +292,7 @@ main {
 }
 /*.....................................LG........................................................*/
 @media (max-width: 767px){
-  .mayorista{
-    background-color: rgb(128, 128, 245);
-    color: white;
-    height: 3rem;
-    
-  }
-  
-  .mayorista p{
-    margin-bottom: 0rem;
-    text-align: center;
-    padding-top: 1%;
-  }
+ 
 
 
   .carousel-item{
@@ -432,6 +425,7 @@ background-color: rgba(241, 228, 228, 0.6);
 .table{
   font-size: 15px;
 }
+
 
 .main-payments-metods__container {
   display: -webkit-box;
