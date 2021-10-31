@@ -1,5 +1,18 @@
 /** VARIABLES Y FUNCIONES **/
 /** HEADER **/
+.mayorista{
+  background-color: rgb(128, 128, 245);
+  color: white;
+  height: 3rem;
+  
+}
+
+.mayorista p{
+  margin-bottom: 0rem;
+  text-align: center;
+  padding-top: 1%;
+}
+
 .cabecera {
   z-index: 999;
   display:block;
