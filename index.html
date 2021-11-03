@@ -27,7 +27,7 @@
     <body>
         <header>
            
-            <div class="container-fluid bg-light position-fixed cabecera">
+            <div class="container-fluid bg-light position-fixed cabecera" >
                 <div class="mayorista">
                     <p>Compra minima 7.000$-ENVIO A TODO EL PAÍS</p>
                 </div>
@@ -63,9 +63,9 @@
                 </nav>
             </div>
         </header>
-        <div class="contenidos" id="contenidos">
+        
             <main>
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleCaptions" id="slider" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
@@ -79,7 +79,7 @@
                     <!--SLIDERS-->
 
 
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" id="slider">
                         <!--SLIDER 1-->
 
                         <div class="carousel-item active">
@@ -129,8 +129,8 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                <div class="main-payments-metods__container">
-                    <ul>
+                <div class="main-payments-metods__container" id="slider">
+                    <ul id="slider">
                         <li class="animate__animated animate__flash animate__delay-2s"><i class="fas fa-university"></i>
                             <span>Transferencia</span></li>
                         <li class="animate__animated animate__flash animate__delay-2s"><i class="far fa-credit-card"></i>
@@ -143,7 +143,8 @@
                 <div class="container bottom-50">
                     <h2 class="novedades text-black-50 pt-4">Seleccione el Talle</h2>
                 </div>
-
+        </main>
+         
                 <div class="talles">
 
                     <div class="talle1" id="NB">                        
@@ -178,7 +179,7 @@
                      </div>
                 
                 </div>
-
+            <div class="contenidos" id="contenidos"></div>
                 <!--SECCION NOVEDADES-->
 
                 <div class="container bottom-50">
@@ -307,7 +308,7 @@
                         
                     </div>
                 </div>
-            </main>
+            
         </div>
 
         <div class="tucompra">
@@ -389,16 +390,21 @@
     $(document).ready(function(){
 
     $('#NB').click(function(){
-        
+
         $('#contenidos').load("NB.html");
 
+        document.getElementById("slider").style.display="none";
+        
+
     });
+
     });
         $(document).ready(function(){
 
     $('#3Ma6M').click(function(){
         
         $('#contenidos').load("3Ma6M.html");
+        document.getElementById("slider").style.display="none";
 
     });
     });
@@ -407,6 +413,7 @@
     $('#9Ma12M').click(function(){
         
         $('#contenidos').load("9Ma12M.html");
+        document.getElementById("slider").style.display="none";
 
     });
     });
@@ -416,6 +423,7 @@
     $('#18Ma24M').click(function(){
         
         $('#contenidos').load("18Ma24M.html");
+        document.getElementById("slider").style.display="none";
 
     });
     });
@@ -425,6 +433,7 @@
     $('#3Ta4T').click(function(){
         
         $('#contenidos').load("3Ta4T.html");
+        document.getElementById("slider").style.display="none";
 
     });
     });
@@ -434,6 +443,7 @@
     $('#5Ta6T').click(function(){
         
         $('#contenidos').load("5Ta6T.html");
+        document.getElementById("slider").style.display="none";
 
     });
     });
