@@ -290,6 +290,35 @@ main {
 .carousel-text h5 {
   font-size: 2.5em;
 }
+
+.detallecompra{
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 4%;
+  background-color: rgba(243, 221, 221, 0.5);
+
+}
+
+.totalcompra{
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(23, 206, 238, 0.3);
+  border-radius: 4%;
+  align-items: center;
+ 
+}
+
+.totalcompraTN{
+  
+  margin-left: 67%;
+}
+
+.totalcompraTN p{
+  display: inline;
+  
+}
+
+
 /*.....................................LG........................................................*/
 @media (max-width: 767px){
  
