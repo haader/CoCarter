@@ -192,9 +192,19 @@ background-color: rgba(241, 228, 228, 0.6);
 
 .catalogop{
   display: grid;
-  grid-template-rows: 10%;
+  grid-template-columns: repeat(13,50%);
+  gap: 0rem;
+  overflow-y:hidden;
+  overflow-x:auto;
+  width: auto;
+  white-space: nowrap;
+  height: 500px;
+  padding-top: 2%;
+  
   
   }
+
+
 
 .divcompra {
   
@@ -202,10 +212,14 @@ background-color: rgba(241, 228, 228, 0.6);
   background-color: rgba(241, 228, 228, 0.2);
   margin-bottom: 1rem;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 0;
   display: grid;
-  grid-template-columns: 50% 50%;
-  height:117px;
+  grid-template-rows: 20% 80%;
+  height:380px;
+  position:relative;
+  transition: x=-3rem;
+  
+  
   
   
   border-radius: 5px;
@@ -215,12 +229,12 @@ height:0.2rem;
   margin-left: 0%;
   font-size: 2rem;
   text-align: center;
-  padding-top: 7%;
+  padding-top: 1%;
 }
 
 .compraimg{
 
-  height: 118px;
+  height: 300px;
   border: solid;
   border: 3px solid #ff9daa;
   /*background-image: url("");
@@ -233,7 +247,7 @@ height:0.2rem;
   .compraimg > img{
   background-color: black;
   position: relative;
-  height: 118px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -245,7 +259,9 @@ height:0.2rem;
 	
 }
 */
-
+.catalogo{
+  display: none;
+}
 
 
 /*..................................div btn compras..............................................*/
